@@ -1,0 +1,3 @@
+register||{"username":"liguofang2020${unique_num1}","password":"liguofang999","email": "1317872262@qq.com"}||"code": "00"||userid----userid": (\w+)
+login||{"username":"liguofang2020${num1}","password":"${md5('liguofang999')}"}||"token"||token----"token": "(\w+)"
+create||{"userid":"%{userid}", "token": "%{token}", "title":"python", "content":"python port test"}||"code": "00"||None
